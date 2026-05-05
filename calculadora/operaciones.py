@@ -1,4 +1,4 @@
-# Funciones
+# # Funciones
 
 def suma(a,b):
     resultado = a + b
@@ -7,11 +7,14 @@ def suma(a,b):
 def saludo(nombre):
     return f"Hola {nombre}"
 
-print(suma(5,10))
-print(saludo("Rey"))
-
 def dividir (a, b):
     try: # Hace esto mientras cumpla
         return a / b
     except ZeroDivisionError: # Cuando no ocurra
         print("No se puede dividir por cero")
+
+def restar (a, b):
+    return a - b
+
+def multiplicar (a, b):
+    return a * b

@@ -69,11 +69,9 @@
 #       pares +=1
 #       print(contador)
 
-from calculadora.operaciones import suma, saludo, dividir
+# from calculadora.operaciones import suma, saludo, dividir
 
-print(suma(5,10))
+# print(suma(5,10))
 
 
-      
-      
 
